@@ -9,7 +9,7 @@ body {
   color: #333;
 }
 
-/* sec1 Banner */
+/* sec1 */
 .sec1 {
   background: url('../images/drew-coffman-1872.jpg') center/cover no-repeat;
   display: flex;
@@ -27,6 +27,10 @@ body {
 .sec1-content p {
   font-size: 20px;
   margin-bottom: 15px;
+}
+.welcome{
+  font-size: 20px;
+  margin:10px;
 }
 .sec1-buttons .b1 .b2 {
   display: inline-block;
@@ -56,7 +60,7 @@ body {
     background-color: #8e7754;
 }
 
-/* Who We Are */
+/* sec 2*/
 .sec2 {
   padding: 40px 20px;
   background-color: #fafafa;
@@ -91,3 +95,30 @@ body {
   margin-left: 20px;
   text-decoration: none;
 }
+.features {
+  list-style: none;
+  padding: 0;
+  list-style: none;
+  display:block;
+  gap: 20px;
+  text-decoration: none;
+}
+
+.features li {
+  margin: 10px 0;
+  font-size: 18px;
+  background: #ffffff00;
+  padding: 10px;
+  text-align: left;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.features li i {
+  color: rgb(255, 255, 255);
+  background-color: #8e7754;
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 10px;
+}
+

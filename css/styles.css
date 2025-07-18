@@ -117,3 +117,94 @@ body {
   margin-right: 10px;
 }
 
+.sec3 {
+  padding: 40px 20px;
+  background-color: #fafafa;
+  display:list-item;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container2{
+    display: grid;
+    grid-template-columns: repeat(3,28%);
+    grid-template-areas: 
+    "a b c"
+    "d b e"
+    "d f g";
+    width: 60%;
+    height: 80%;
+    margin-left: 350px;
+    margin-top: 50px;
+    /* margin: 20px auto; */
+    gap: 15px;
+}
+.container2 img{
+    width: 100%;
+    height: 100%;
+}
+.container2 div{
+  text-align: center;
+}
+.container2 > div{
+  position: relative;
+}
+.caption{
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    position: absolute;
+    padding: 30px;
+    align-items: center;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.caption P{
+  margin-left: 50px;
+}
+.caption h2{
+  margin-left: 20px;
+}
+.a{
+  grid-area: a;
+}
+.b{
+  grid-area: b;
+}
+.c{
+  grid-area: c;
+}
+.d{
+  grid-area: d;
+}
+.e{
+  grid-area: e;
+}
+.f{
+  grid-area: f;
+}
+.g{
+  grid-area: g;
+}
+.caption:hover{
+    /* visibility: hidden; */
+    background-color: rgba(240, 248, 255, 0);
+    color: rgba(240, 248, 255, 0);
+}
+
+section {
+      width: 100%;
+      padding: 50px;
+      border: 1px solid #ccc;
+      margin-bottom: 20px;
+      box-sizing: border-box;
+    }
+
+    section {
+      display: block;
+      float: none;
+    }
